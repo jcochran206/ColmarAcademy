@@ -1,4 +1,61 @@
 /* Universal elements */
 html {
   font-family: Helvetica;
+  font-size: 16px;
+}
+
+
+/* header */
+header {
+  position: fixed;
+  z-index: 100%;
+  width: 100%;
+  border-bottom: solid 1px #c6c1c1;
+  background-color: white;
+}
+
+header .content {
+  display: flex;
+  height: 64px;
+  width: 100%;
+  color: #b7c0ce;
+  background-color: white;
+  z-index: 100%;
+  align-items: center;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.content a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+header a span {
+  color:  red/*#4e5868*/;
+}
+
+.mobile {
+  display: none;
+}
+
+nav .desktop {
+  float: right;
+  padding-right: 24px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li, a {
+  display: inline-block;
+  list-style-type: none;
+  padding-right: 1.6rem;
+  line-height: 1.6rem;
+  color: #4e5868;
+}
+
+nav a {
+  vertical-align: bottom;
+  font-size: 1rem;
 }
