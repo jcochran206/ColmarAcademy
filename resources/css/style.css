@@ -8,6 +8,7 @@ body {
   line-height: 1.4;
   width: 1260px;
   height: 100%;
+  background-color: #f3f3f3;
 }
 /* header */
 header {
@@ -73,7 +74,6 @@ nav a {
 
 /* main content area */
 .main-content {
-  background-color: #f3f3f3;
   text-align: center;
   padding-top: 4rem;
   margin: 24px 36px;
@@ -120,4 +120,63 @@ nav a {
   margin: 4px 2px;
   padding: 15px 32px;
   width: 60%;
+}
+
+/* event section */
+.events {
+  text-align: center;
+  padding-top: 2rem;
+  margin: 0 auto;
+  width: 1260px;
+  background-color: white;
+}
+
+.event-main {
+  background-color: white;
+  text-align: left;
+  width: 59%;
+  float: left;
+}
+
+.event-main img {
+  width: 95%;
+  float: center;
+  text-align: center;
+}
+
+.event-section {
+  float: right;
+  width: 39%;
+  background-color: white;
+}
+
+hr{
+    border:         none;
+    border-left:    1px solid hsla(200, 10%, 50%,100);
+    height:         100vh;
+    width:          0px;
+    float: left;
+    margin: 0;
+}
+
+.event-container {
+  display: inline-block;
+  width: 100%;
+}
+
+.event-image img {
+  height: auto;
+  width: 35%;
+  margin-left: 16px;
+  margin-top: 16px;
+  margin: 0;
+  float: left;
+}
+
+.event-content {
+  float: right;
+  text-align: left;
+  margin-top:8px;
+  margin-bottom: 8px;
+  width: 65%;
 }
