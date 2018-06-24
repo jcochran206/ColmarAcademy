@@ -4,7 +4,11 @@ html {
   font-size: 16px;
 }
 
-
+body {
+  line-height: 1.4;
+  width: 1260px;
+  height: 100%;
+}
 /* header */
 header {
   position: fixed;
@@ -12,6 +16,10 @@ header {
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
+  height: 64px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
 }
 
 header .content {
@@ -25,13 +33,14 @@ header .content {
   font-weight: 600;
   font-size: 2rem;
 }
+
 .content a {
   text-decoration: none;
   list-style-type: none;
 }
 
 header a span {
-  color:  red/*#4e5868*/;
+  color:  red /*#4e5868*/;
 }
 
 .mobile {
@@ -58,4 +67,57 @@ nav li, a {
 nav a {
   vertical-align: bottom;
   font-size: 1rem;
+}
+
+/* media query for mobile display here */
+
+/* main content area */
+.main-content {
+  background-color: #f3f3f3;
+  text-align: center;
+  padding-top: 4rem;
+  margin: 24px 36px;
+  height: 500px;
+  width: 100%;
+}
+
+.main-content .image-container {
+  padding-right: 2rem;
+  float: left;
+  width: 60%
+}
+
+.image-container img {
+  width: 100%;
+  height: 500px;
+  float: center;
+}
+
+.main-content-container {
+  display: flex;
+  height: 500px;
+  width: 35%;
+  align-items: center;
+  justify-content: center;
+
+  float: right;
+  margin: 0 auto;
+  padding-left: 24px;
+}
+
+.main-center {
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  background-color: #4e5868;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 4px 2px;
+  padding: 15px 32px;
+  width: 60%;
 }
