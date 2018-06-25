@@ -150,14 +150,13 @@ nav a {
   background-color: white;
 }
 
-hr{
+/* hr{
     border:         none;
     border-left:    1px solid hsla(200, 10%, 50%,100);
-    height:         100vh;
     width:          0px;
     float: left;
     margin: 0;
-}
+} */
 
 .event-container {
   display: inline-block;
@@ -179,4 +178,61 @@ hr{
   margin-top:8px;
   margin-bottom: 8px;
   width: 65%;
+}
+
+.course {
+  display: flex;
+  background-color: #f3f3f3;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+.course .title {
+  text-align: center;
+  margin: 0;
+  padding: 8px 8px;
+}
+
+.card {
+  background-color: white;
+  height: 200px;
+  width: 40%;
+}
+
+.card img {
+  height: auto;
+  width: 100%;
+}
+
+/*thesis section */
+.thesis {
+  height: 400px;
+  width: 100%;
+  background-color: #f3f3f3;
+  padding: 10px 20px;
+  margin: auto;
+  text-align: center;
+}
+
+.thesis-container {
+  display: inline;
+  width: 1260px;
+  align-items: left;
+}
+
+.thesis-video {
+  width: 60%;
+  display: inline-block;
+}
+
+video {
+  width: 100%;
+  height: 300px;
+}
+
+.thesis-content {
+  width: 35%;
+  display: block;
 }
