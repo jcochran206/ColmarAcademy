@@ -123,6 +123,63 @@ nav a {
 }
 
 /* event section */
+
+/* courses section */
+.course-wrap {
+  display: block;
+  text-align: center;
+  width: 100%;
+  border: 1px solid red;
+  align-content: center;
+  justify-content: center;
+}
+.course-title{
+  display: inline;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.course-column1 {
+  display: flex;
+  align-content: space-between;
+  width: 100%;
+  margin-bottom: 32px;
+  margin-top:32px;
+  margin-left: 72px;
+  margin-right: 72px;
+}
+
+.course-column2 {
+  display: inline-flex;
+  width: 100%;
+  margin-bottom: 32px;
+  margin-top:32px;
+  margin-left: 72px;
+  margin-right: 72px;
+
+}
+
+.card {
+  background-color: white;
+  width: 30%;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 32px;
+  padding: 1px 1px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+/* thesis section */
+
 /* footer section */
 footer {
   width: 100%;
