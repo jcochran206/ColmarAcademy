@@ -123,3 +123,26 @@ nav a {
 }
 
 /* event section */
+/* footer section */
+footer {
+  width: 100%;
+  display: inline;
+}
+
+.footer-left {
+  float: left;
+  text-align: left;
+  width: 45%;
+  border: solid red;
+  margin-left: 24px;
+  margin-top: 16px;
+}
+
+.footer-right {
+  float: right;
+  text-align: right;
+  width: 45%;
+  border: solid blue;
+  margin-right: 24px;
+  margin-top: 16px;
+}
