@@ -123,6 +123,89 @@ nav a {
 }
 
 /* event section */
+.event-wrap{
+  display: inline;
+  width: 100%;
+  height: 40rem;
+  background-color: white;
+}
+
+.events {
+  width: 60%;
+  height: 40rem;
+  float: left;
+  background-color: blue;
+}
+
+.event-section-wrap {
+  width: 40%;
+  background-color: grey;
+  float: right;
+  height: 40rem;
+}
+
+.event-main {
+  width: 90%;
+  align-items: center;
+}
+
+.event-main-image img {
+  width: 100%;
+  margin: 32px 24px 32px 24px;
+}
+
+.event-main-content {
+  width: 100%;
+  text-align: left;
+  margin-left: 24px;
+  margin-bottom: 32px;
+}
+
+.event-main-content h2 {
+  margin-bottom: 24px;
+}
+
+.event-section-wrap {
+  width: 40%;
+  display: block;
+
+}
+
+
+.event-box {
+  display: inline;
+  background-color: white;
+  width: 90%;
+  border: 1px solid red;
+  height: 13.2rem;
+}
+
+.event-image {
+  width: 35%;
+  height: auto;
+  margin-left: 16px;
+  margin-top: 16px;
+  float: left;
+}
+
+.event-image img {
+  width: 100%;
+}
+
+.event-content {
+  text-align: center;
+  align-items: center;
+  float: right;
+
+}
+.event-content p {
+  margin-top: 8px;
+  margin-bottom: 8px;
+
+}
+
+
+
 
 /* courses section */
 .course-wrap {
@@ -140,7 +223,10 @@ nav a {
   justify-content: center;
   align-items: center;
   align-content: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
+
 .course-column1 {
   display: flex;
   align-content: space-between;
@@ -152,7 +238,7 @@ nav a {
 }
 
 .course-column2 {
-  display: inline-flex;
+  display: flex;
   width: 100%;
   margin-bottom: 32px;
   margin-top:32px;
@@ -169,6 +255,8 @@ nav a {
   justify-content: space-between;
   border-radius: 5px;
   border: 2px solid black;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .card img {
@@ -178,7 +266,7 @@ nav a {
 
 .container-card {
   background-color: white;
-  margin: 8px 0px 8px 16px
+  margin: 8px 16px 8px 16px
 }
 
 /* thesis section */
