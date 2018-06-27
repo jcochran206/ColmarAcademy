@@ -143,7 +143,7 @@ nav a {
   float: right;
   height: 40rem;
 }
-
+/* module on right with photo*/
 .event-main {
   width: 90%;
   align-items: center;
@@ -165,19 +165,20 @@ nav a {
   margin-bottom: 24px;
 }
 
+/* event boxes section*/
 .event-section-wrap {
   width: 40%;
   display: block;
-
 }
 
 
 .event-box {
-  display: inline;
+  display: block;
   background-color: white;
-  width: 90%;
+  width: 97%;
   border: 1px solid red;
   height: 13.2rem;
+  align-items: center;
 }
 
 .event-image {
@@ -193,15 +194,17 @@ nav a {
 }
 
 .event-content {
-  text-align: center;
-  align-items: center;
+  width: 60%;
+  text-align: left;
+  justify-content: center;
   float: right;
-
+  border: 1px solid blue;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .event-content p {
   margin-top: 8px;
   margin-bottom: 8px;
-
 }
 
 
