@@ -51,6 +51,7 @@ header a span {
 nav .desktop {
   float: right;
   padding-right: 24px;
+  border: 1px solid blue;
 }
 
 nav ul {
@@ -71,7 +72,12 @@ nav a {
 }
 
 /* media query for mobile display here */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
+  .fluid-container{
+    display: block;
+    float: none;
+    clear: both;
+  }
   nav .desktop {
     display: none;
   }
@@ -222,14 +228,12 @@ nav a {
 }
 
 
-
-
 /* courses section */
 .course-wrap {
   display: block;
   text-align: center;
   width: 100%;
-  
+
   align-content: center;
   justify-content: center;
 }
