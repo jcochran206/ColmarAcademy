@@ -89,9 +89,12 @@ nav a {
     display: none;
   }
 
-  .mobile {
+  .left-navbar .mobile {
     display: inline;
     width: 100%;
+  }
+  .right-navbar {
+    display: none;
   }
 
 }
@@ -101,7 +104,7 @@ nav a {
   text-align: center;
   padding-top: 4rem;
   margin: 24px 36px;
-  height: 500px;
+  height: 32rem;
   width: 100%;
 }
 
@@ -359,10 +362,6 @@ nav a {
 
 
 /* footer section */
-footer hr {
-  border:1px solid grey;
-}
-
 footer {
   width: 100%;
   display: inline;
