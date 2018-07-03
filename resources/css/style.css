@@ -51,7 +51,7 @@ header a span {
 .right-navbar {
   float: left;
   width: 50%;
-  
+
 }
 
 .left-navbar {
@@ -85,7 +85,7 @@ nav a {
     float: none;
     clear: both;
   }
-  nav .desktop {
+  nav .left-navbar .desktop  {
     display: none;
   }
 
