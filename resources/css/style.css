@@ -48,10 +48,17 @@ header a span {
   display: none;
 }
 
-nav .desktop {
+.right-navbar {
+  float: left;
+  width: 50%;
+  
+}
+
+.left-navbar {
   float: right;
-  padding-right: 24px;
-  border: 1px solid blue;
+  width: 50%;
+  margin-right: 24px;
+
 }
 
 nav ul {
